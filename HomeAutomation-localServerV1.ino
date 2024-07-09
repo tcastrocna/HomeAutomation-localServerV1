@@ -16,9 +16,9 @@ String TEXT_STATE_2 = "OFF";
 String TEXT_STATE_3 = "OFF";
 String TEXT_STATE_4 = "OFF";
 
-/*// Replace with your network credentials
+// Replace with your network credentials
 const char* ssid = "REPLACE_WITH_YOUR_SSID";
-const char* password = "REPLACE_WITH_YOUR_PASSWORD";*/
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
 WiFiServer server(80);
 String header;
