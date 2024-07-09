@@ -2,7 +2,7 @@
 
 Este é um projeto simples que permite o controle de equipamentos eletrônicos com módulo relé e chip esp32 através de um servidor local, onde é possivel ligar e desligar relés com um app web no celular ou desktop, e para isso é preciso ter uma rede wifi (Sem necessariamente ter acesso a intenet).
 
-#### Altere os dados necessários
+#### ✏️ Altere os dados necessários
 Algumas parte do código devem ser modificadas de acordo com a sua necessidade.
 
 Inicialmente é necessário alterar o nome e senha da rede WiFi de acordo com a rede local a ser conectada, substituindo ``REPLACE_WITH_YOUR_SSID`` para o nome e ``REPLACE_WITH_YOUR_PASSWORD`` para a senha.
@@ -111,5 +111,8 @@ E por fim a parte onde é desenhado os botões e alternancia de seu estado no ap
             }
 ````
 
-**ℹ️Ao final teremos algo assim:**
+#### 🖼️ Ao final teremos algo assim:**
 ![App-Web](App-Web.png)
+
+#### 🗂️ Bibliotecas usadas
+- 📁 [WiFi Versão 1.2.7](https://www.arduino.cc/reference/en/libraries/wifi/)
